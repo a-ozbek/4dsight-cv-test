@@ -10,7 +10,7 @@ I used template matching functionality of OpenCV. To handle rotation, I rotate t
 
 ### Compile
 
-To compile: `$g++ find_stars.cpp`  
+To compile: `$ g++ find_stars.cpp`  
 You may need to add these flags to the end: ``pkg-config opencv --cflags --libs``  
 Compiled program is already available as: `a.out`
 
@@ -22,7 +22,7 @@ Compiled program is already available as: `a.out`
 
 ## Solution 2
 
-First I tried SIFT (and similar SURF, ORB, etc.) features to match keypoints and try to figure out transformation (homography) from that, however they don't seem to work well in astronomical images like these. I realized that I need features that are invariant to rotation to solve this problem so ratios of the distances of stars from each other can be a feature.
+First I tried SIFT (and similar SURF, ORB, etc.) features to match keypoints and try to figure out transformation (homography) from that, however they don't seem to work well in astronomical images like these. I realized that I need features that are invariant to rotation. To solve this problem, the feature can be the ratios of the distances of stars from each other.
 
 After a few google searches I stumbled upon this paper: 
 [Astroalign: A Python module for astronomical image registration](https://arxiv.org/abs/1909.02946)
