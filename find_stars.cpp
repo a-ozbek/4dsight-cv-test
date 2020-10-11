@@ -34,14 +34,14 @@ int main(){
     int user_wants_visual_output;
     string f_visual_output;
     //
-    cout << "Please enter the file path of small image:";
+    cout << "Please enter the file path of small image: ";
     cin >> f_im_small;
-    cout << "Please enter the file path of big image (Star Map):";
+    cout << "Please enter the file path of big image (Star Map): ";
     cin >> f_im;
-    cout << "Do you want to create a visual output image (bounding box detection)? 1 for yes, 0 for no:";
+    cout << "Do you want to create a visual output image (bounding box detection)? 1 for yes, 0 for no: ";
     cin >> user_wants_visual_output;
     if (user_wants_visual_output == 1){
-        cout << "Please enter the filename to create visual output image file:";
+        cout << "Please enter the filename to create visual output image file: ";
         cin >> f_visual_output;
     }
 
