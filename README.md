@@ -1,6 +1,6 @@
 # 4dsight-cv-test
 
-I implemented two solutions. The second solution did not work however since I spent some time on it, I wanted to include it.
+I implemented two solutions. First one works. The second solution did not work, however since I spent some time on it, I wanted to include it.
 
 ## Solution 1
 
