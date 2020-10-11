@@ -6,7 +6,7 @@ I used template matching functionality of OpenCV. To handle rotation, I rotate t
 
 ## Compile
 
-To compile: `g++ find_stars.cpp`
+To compile: `$g++ find_stars.cpp`  
 You may need to add these flags to the end: ``pkg-config opencv --cflags --libs``
 
 ## Results
